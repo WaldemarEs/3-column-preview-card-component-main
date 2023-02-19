@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 10em;
+}
+
+
+div {
+    background-color: aqua;
+    padding: 12em 6em;
+
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+P {
+    font-family: 'Big Shoulders Display', cursive;
+}
+.boton {
+    border-radius: 4px;
+    background-color: aliceblue;
+    padding: 0.1em    0.4em;
+}
+.division-uno {
+    flex: 1 1 auto;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.division-dos {
+    flex: 1 1 auto;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.division-tres {
+    flex: 1 1 auto;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
